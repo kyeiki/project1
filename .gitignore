@@ -1,0 +1,42 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# Test & tooling caches
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# LaTeX build artifacts (kalau pakai dokumen .tex)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+
+# GitHub CLI binary
+bin/
+gh.exe
